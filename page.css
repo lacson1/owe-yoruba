@@ -12,5 +12,6 @@ li { margin: 4px 0; }
 .fill { background: color-mix(in srgb, #e6b85c 30%, transparent); padding: 0 4px; border-radius: 4px; }
 .support-btn { display: inline-block; padding: 12px 22px; border-radius: 999px; font-weight: 700; text-decoration: none; color: #1b1407; background: linear-gradient(135deg, #f3c55b, #d9a441); }
 .support-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.store-btn { display: inline-block; padding: 12px 22px; border-radius: 12px; font-weight: 700; text-decoration: none; color: #fff; background: #111; }
-.store-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.store-badge { display: inline-block; border-radius: 9px; }
+.store-badge img { display: block; width: 150px; height: auto; }
+.store-badge:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
